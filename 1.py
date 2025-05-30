@@ -1,12 +1,19 @@
-def one_to_three() :
-    print(1, 2, 3)
+def greet(lang):
 
-def three_to_seven():
-    print(3\n  4 5 6 7 )
+    if lang == "en":
 
+        print("Hello")
 
-one_to_three
-three_to_seven
+    elif lang == "fr":
+
+        print("Bonjour")
+
+    else:
+
+        print("Hola")
+
+greet("fr")
+ 
 
 
 
